@@ -35,7 +35,7 @@ function Projects() {
       ],
       skills: ["React", "CSS", "HTML"],
       image: `${process.env.PUBLIC_URL}/images/website.png`,
-      link: "https://pontifex-app.vercel.app/" 
+      link: "https://nickgenovese46.github.io/my-portfolio/" 
     },
     {
       id: 4,
