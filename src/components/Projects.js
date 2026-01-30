@@ -12,7 +12,7 @@ function Projects() {
         "Click the link below to explore Pontifex and take control of your networking journey!"
       ],
       skills: ["React", "JavaScript", "HTML5", "CSS", "Vite", "Supabase", "Resend"],
-      image: "/images/pontifexapp.png", // Place images in public/images folder
+      image: `${process.env.PUBLIC_URL}/images/pontifexapp.png`, // Place images in public/images folder
       link: "https://pontifex-app.vercel.app/" // Optional - can be null
     },
     {
@@ -24,7 +24,7 @@ function Projects() {
         "This project is a testament to my passion for mechanical design, electronics, and software development, and I am excited to share updates as the project progresses!"
       ],
         skills: ["3D Printing", "SolidWorks", "Arduino", "Mechanical Design"],
-      image: "/images/staytuned.jpg",
+      image: `${process.env.PUBLIC_URL}/images/staytuned.jpg`,
       link: null // Example of project without a link
     },
     {
@@ -34,7 +34,7 @@ function Projects() {
         "My own personal portfolio! Built with React to showcase my projects, skills, and experience in a clean and comprehensive design."
       ],
       skills: ["React", "CSS", "HTML"],
-      image: "/images/website.png",
+      image: `${process.env.PUBLIC_URL}/images/website.png`,
       link: "https://pontifex-app.vercel.app/" 
     },
     {
@@ -45,7 +45,7 @@ function Projects() {
         "The final project was a versatile robot designed for various tasks, including infrared object tracking, wall sensing, and user-controlled navigation. This project showcases fundamental skills in mechanical design, circuit-building, programming, and system integration, and was the spark of my robotics interest that has carried me throughout my career.",
       ],
       skills: ["Circuit Fabrication", "Mechanical Design", "C++"],
-      image: "/images/robot.png",
+      image: `${process.env.PUBLIC_URL}/images/robot.png`,
       imageSize: "small",
       link: null // Example of project without a link
     },
@@ -59,7 +59,7 @@ function Projects() {
       ],
       skills: ["Mechanical Design", "Energy Optimization", "Fluid Dynamics"],
       awards: ["UPenn School of Engineering Senior Design Finalist", "William K. Gemill Memorial Prize for Outstanding Creativity", "Leadership Award"],
-      image: "/images/pvre.png",
+      image: `${process.env.PUBLIC_URL}/images/pvre.png`,
       link: null // Example of project without a link
     },
     // Add more projects as needed

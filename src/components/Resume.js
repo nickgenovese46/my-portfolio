@@ -3,7 +3,7 @@ import './Resume.css';
 
 function Resume() {
   const openResume = () => {
-    window.open('/images/resume.pdf', '_blank');
+    window.open(`${process.env.PUBLIC_URL}/resume.pdf`, '_blank');
   };
 
   return (
