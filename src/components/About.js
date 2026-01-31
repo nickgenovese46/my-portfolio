@@ -8,7 +8,7 @@ function About() {
         <h2 className="section-title">About Me</h2>
         <div className="about-content">
             <div className="about-image">
-              <img src={`${process.env.PUBLIC_URL}/images/about.png`} alt="Nick Genovese" />
+              <img src={`${process.env.PUBLIC_URL}/images/about.jpg`} alt="Nick Genovese" />
             </div>
           <div className="about-text">
             <p>
@@ -20,8 +20,9 @@ systems with a focus on rapid prototyping and cross-functional leadership. Passi
               My current role prioritizes innovation and creativity within the MedTech space. As a part of the Innovation and Partnerships 
               R&D team, I lead development of medical device solutions for various MedTech Surgery applications, specializing in 
               early-stage internal innovation and robotic system development. This work spans from battery-powered wearable therapeutic devices 
-              for at-home patient use, to capital robotic-assisted surgical systems for intraoperative use by surgeons. I specialize in mechanical 
-              design and structural architecture, electrical system and PCB development, and firmware integration.
+              for at-home patient use, to capital robotic-assisted surgical systems used by surgeons in the OR. I specialize in mechanical 
+              design and structural architecture, electrical system and PCB development, and firmware integration. While I am unable to share specific
+              details about my work projects until they have been publically launched, feel free to explore the work I have done outside of the office in the Projects section below!
             </p>
             <div className="skills">
               <h3>Skills</h3>
