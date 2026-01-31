@@ -5,18 +5,6 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "",
-      summary: [
-        "ing track of my conversations and follow ups. This tool is designed for anyone building and growing their network, and goes beyond a basic contact book to contextualize meetings, conversations, follow-ups, and forgotten details that leads to stronger and more impactful relationships.",
-        "Built with React, Vite, and Supabase for the backend, Pontifex offers a seamless user experience with secure authentication and real-time data management. The application also integrates Resend for email notifications, ensuring users never miss a follow-up or important update regarding their connections.",
-        "Click the link below to explore Pontifex and take control of your networking journey!"
-      ],
-      skills: ["React", "JavaScript", "HTML5", "CSS", "Vite", "Supabase", "Resend"],
-      image: `${process.env.PUBLIC_URL}/images/pontifexapp.png`, // Place images in public/images folder
-      link: "https://pontifex-app.vercel.app/" // Optional - can be null
-    },
-    {
-      id: 2,
       title: "Pontifex: Building a better network",
       summary: [
         "A networking dashboard that enables users to create an account and keep an up to date record of their connections and interactions. I created this tool as I struggled with my own journey of reaching out to prospective mentors and keeping track of my conversations and follow ups. This tool is designed for anyone building and growing their network, and goes beyond a basic contact book to contextualize meetings, conversations, follow-ups, and forgotten details that leads to stronger and more impactful relationships.",
@@ -28,7 +16,7 @@ function Projects() {
       link: "https://pontifex-app.vercel.app/" // Optional - can be null
     },
     {
-      id: 3,
+      id: 2,
       title: "Custom 3D Printer: In Progress!!",
       summary: [
         "A custom 3D printer project aimed at creating a innovative two nozzle printing experience. This project involves designing and building the printer's hardware (with some 3D printed parts!), developing the firmware, and creating a web interface for users to interact with the printer.",
@@ -40,7 +28,7 @@ function Projects() {
       link: null // Example of project without a link
     },
     {
-      id: 4,
+      id: 3,
       title: "My Personal Portfolio (aka this website!)",
       summary: [
         "My own personal portfolio! Built with React to showcase my projects, skills, and experience in a clean and comprehensive design."
@@ -50,7 +38,7 @@ function Projects() {
       link: "https://nickgenovese46.github.io/my-portfolio/" 
     },
     {
-      id: 5,
+      id: 4,
       title: "MEAM 510: Final Robotics Project",
       summary: [
         "MEAM 510 with Professor Mark Yim at the University of Pennsylvania provided a hands-on experience in designing and building robotic systems from the ground up. The robot was constructed using a combination of 3D printed parts and off-the-shelf components, and was programmed in C++ to perform a range of both autonomous functions and remote controlled tasks via wifi.",
@@ -62,7 +50,7 @@ function Projects() {
       link: null // Example of project without a link
     },
     {
-      id: 6,
+      id: 5,
       title: "PVRE: Portable Water Purification System",
       summary: [
         "Water borne illnesses pose a great health risk globally. Roughly 2.5 billion people do not have access to safe water and over 3.5 million people perish yearly from water-related disease. Ghana is a developing nation that suffers from dangerously high quantities of water borne illnesses, with 25% of child deaths under the age of 5 due to diarrhea, and 80% of diseases caused by unsafe water.", 
